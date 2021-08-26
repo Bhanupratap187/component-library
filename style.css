@@ -1,3 +1,145 @@
-*{
+body {
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
+}
+
+:root{
+    --primary-color:#2619E2;
+    --darkish-green: #34D399;
+    --off-white: #9CA3AF;
+}
+
+
+/********* @container *********/
+
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+/********** @links ***********/
+
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+/************* @list ***********/
+
+
+.list{
+    list-style: none;
+}
+
+.list-un2 li{
+    display: inline-block;
+    padding: 0rem 0.5rem;
+}
+
+
+/************** @nav ************/
+
+
+.nav-links{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0rem 0.5rem;   
+}
+.unordered{
+    text-align: right;
+}
+
+
+/************ @header ************/
+
+
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+.hero-image{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero-heading{
+    font-size: xx-large;
+    padding-top: 1rem;
+    color: var(--darkish-green);
+}
+
+
+/*********** @section ************/
+
+
+.section1 , .section2 {
+    text-align: center;
+    padding: 2rem;
+}
+.section2{
+    background-color: var(--off-white);
+ }
+ .section1{
+    background-color: #fff;
+}
+
+
+/************ @footer ***********/
+
+
+.footer-links ul li {
+    list-style: none;
+    padding: 1rem 1rem;
+    display: inline;
+}
+.footer-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem 1rem;
+    color: #fff;
+    border-top-right-radius: 1rem;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
